@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_network_builder_link_ranking_intro_steps",
+  "info": {
+    "displayName": "Link Ranking Intro Step"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    }
+  }
+}

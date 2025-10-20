@@ -1,0 +1,93 @@
+{
+  "collectionName": "components_network_builders",
+  "info": {
+    "displayName": "Builder",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "introStep": {
+      "displayName": "Intro Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.introduction"
+    },
+    "onboarding": {
+      "displayName": "Onboarding",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.onboarding"
+    },
+    "nodeSelectStep": {
+      "displayName": "Node Select Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.node-select-step"
+    },
+    "nodeClarificationStep": {
+      "displayName": "Node Clarification Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.node-clarification-step"
+    },
+    "nodeRankingStep": {
+      "displayName": "Node Ranking Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.node-ranking-step"
+    },
+    "linkRankingIntroStep": {
+      "displayName": "Link Ranking Intro Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.link-ranking-intro-step"
+    },
+    "linkRankingStep": {
+      "displayName": "Link Ranking Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.link-ranking-step"
+    },
+    "submitStep": {
+      "displayName": "Submit Step",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.submit-step"
+    },
+    "errorMessages": {
+      "displayName": "errorMessages",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.error-messages"
+    },
+    "customNode": {
+      "displayName": "customNode",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.custom-node"
+    },
+    "buttonBackLabel": {
+      "type": "string"
+    },
+    "buttonNextLabel": {
+      "type": "string"
+    },
+    "responseDirection": {
+      "type": "enumeration",
+      "enum": [
+        "incoming",
+        "outgoing"
+      ]
+    },
+    "responsesRequired": {
+      "type": "boolean"
+    },
+    "scrollIndicator": {
+      "displayName": "scrollIndicator",
+      "type": "component",
+      "repeatable": false,
+      "component": "network-builder.scroll-indicator"
+    }
+  }
+}

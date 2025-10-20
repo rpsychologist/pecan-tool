@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "network_configs",
+  "info": {
+    "singularName": "network-config",
+    "pluralName": "network-configs",
+    "displayName": "Network Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "networkBuilder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network.builder",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "network.feedback"
+    },
+    "roleCustomization": {
+      "displayName": "Role Customization",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "network.role-customization"
+    }
+  }
+}

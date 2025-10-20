@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_links_icon_links",
+  "info": {
+    "displayName": "Icon link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "twitter",
+        "mastodon",
+        "website"
+      ]
+    }
+  }
+}

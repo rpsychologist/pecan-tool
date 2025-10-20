@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "node_dimensions",
+  "info": {
+    "singularName": "node-dimension",
+    "pluralName": "node-dimensions",
+    "displayName": "Node Dimension"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "sliderColor": {
+      "type": "enumeration",
+      "enum": [
+        "green",
+        "red"
+      ]
+    },
+    "sliderLabels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.problem-ranker-slider-labels"
+    },
+    "nodes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::node.node",
+      "inversedBy": "node_dimensions"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_network_builder_node_ranking_steps",
+  "info": {
+    "displayName": "Node Ranking Step",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "sliderLabels": {
+      "displayName": "sliderLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.problem-ranker-slider-labels"
+    },
+    "sliderColor": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "green"
+      ],
+      "default": "red"
+    },
+    "sliderHideValue": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

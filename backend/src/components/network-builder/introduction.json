@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_network_builder_introductions",
+  "info": {
+    "displayName": "Introduction",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "buttonStartLabel": {
+      "type": "string"
+    },
+    "buttonLoadNetworkLabel": {
+      "type": "string"
+    },
+    "showButtonLoadNetwork": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

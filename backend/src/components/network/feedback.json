@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_network_feedbacks",
+  "info": {
+    "displayName": "Feedback",
+    "icon": "rotate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "targetNode": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::node.node"
+    },
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.introduction"
+    },
+    "dyadInvite": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.dyad-invite"
+    },
+    "targetNodeIncoming": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.target-node-incoming"
+    },
+    "targetNodeOutgoing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.target-node-outgoing"
+    },
+    "centrality": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.centrality"
+    },
+    "fullNetwork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.full-network"
+    },
+    "participantThanks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.participant-thanks"
+    },
+    "evaluationSurvey": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.evaluation-survey"
+    },
+    "shareUrl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.share-url"
+    },
+    "downloadData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.download-data"
+    },
+    "selectTarget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network-feedback.select-target"
+    }
+  }
+}

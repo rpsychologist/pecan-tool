@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_link_ranking_item_slider_labels",
+  "info": {
+    "displayName": "linkRankingItemSliderLabels",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "minLabel": {
+      "type": "string"
+    },
+    "midLabel": {
+      "type": "string"
+    },
+    "maxLabel": {
+      "type": "string"
+    }
+  }
+}

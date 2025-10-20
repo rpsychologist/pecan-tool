@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_network_role_customizations",
+  "info": {
+    "displayName": "Role Customization",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "customRole": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::custom-role.custom-role"
+    },
+    "title": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network.feedback"
+    },
+    "networkBuilder": {
+      "type": "component",
+      "repeatable": false,
+      "component": "network.builder"
+    }
+  }
+}

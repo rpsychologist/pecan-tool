@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_network_feedback_share_urls",
+  "info": {
+    "displayName": "Share URL"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": true
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

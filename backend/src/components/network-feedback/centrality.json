@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_network_feedback_centralities",
+  "info": {
+    "displayName": "Centrality"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": false
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "figureHeader": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_network_builder_scroll_indicators",
+  "info": {
+    "displayName": "Scroll Indicator",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "showIcon": {
+      "type": "boolean"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_network_feedback_select_targets",
+  "info": {
+    "displayName": "SelectTarget",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
