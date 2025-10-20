@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_network_builder_submit_steps",
+  "info": {
+    "displayName": "Submit Step"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    }
+  }
+}

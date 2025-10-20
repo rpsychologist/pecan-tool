@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_network_feedback_dyad_invites",
+  "info": {
+    "displayName": "Dyad Invite"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "footer": {
+      "type": "richtext"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  }
+}

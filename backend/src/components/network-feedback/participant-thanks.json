@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_network_feedback_participant_thanks",
+  "info": {
+    "displayName": "Participant Thanks",
+    "icon": "handHeart"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

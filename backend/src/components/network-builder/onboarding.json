@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_network_builder_onboardings",
+  "info": {
+    "displayName": "onboarding",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "first": {
+      "displayName": "onboardingStep",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-step"
+    },
+    "nodeSelectStep": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-step"
+    },
+    "nodeRankingtep": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-step"
+    },
+    "linkRatingStepOne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-step"
+    },
+    "linkRatingStepTwo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-step"
+    },
+    "last": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-step"
+    },
+    "demoNodeOne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-node"
+    },
+    "demoNodeTwo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.onboarding-node"
+    },
+    "buttonLabelNext": {
+      "type": "string"
+    },
+    "buttonLabelBack": {
+      "type": "string"
+    },
+    "buttonLabelLast": {
+      "type": "string"
+    },
+    "buttonLabelSkip": {
+      "type": "string"
+    },
+    "showSkipButton": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

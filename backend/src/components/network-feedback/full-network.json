@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_network_feedback_full_networks",
+  "info": {
+    "displayName": "Full Network"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": true
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

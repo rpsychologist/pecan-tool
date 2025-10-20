@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_network_builder_link_ranking_steps",
+  "info": {
+    "displayName": "Link Ranking Step",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemHeader": {
+      "type": "string"
+    },
+    "sliderLabels": {
+      "displayName": "Slider Labels",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link-ranking-item-slider-labels"
+    },
+    "sliderHideValue": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

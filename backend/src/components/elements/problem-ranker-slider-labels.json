@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_elements_problem_ranker_slider_labels",
+  "info": {
+    "displayName": "problemRankerSliderLabels",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "minLabel": {
+      "type": "string"
+    },
+    "midLabel": {
+      "type": "string"
+    },
+    "maxLabel": {
+      "type": "string"
+    }
+  }
+}

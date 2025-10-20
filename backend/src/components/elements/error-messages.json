@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_error_messages",
+  "info": {
+    "displayName": "errorMessages",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "mustChooseTwoProblems": {
+      "type": "string"
+    },
+    "allQuestionsRequired": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_onboarding_nodes",
+  "info": {
+    "displayName": "OnboardingNode"
+  },
+  "options": {},
+  "attributes": {
+    "questionPrompt": {
+      "type": "string"
+    },
+    "causePrompt": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "nodeId": {
+      "type": "string"
+    }
+  }
+}

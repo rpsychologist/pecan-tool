@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_network_builder_node_select_steps",
+  "info": {
+    "displayName": "Node Select Step",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "maxNodes": {
+      "type": "integer"
+    }
+  }
+}

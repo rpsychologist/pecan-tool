@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_network_node_clarifications",
+  "info": {
+    "displayName": "nodeClarification",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "itemId": {
+      "type": "string"
+    }
+  }
+}

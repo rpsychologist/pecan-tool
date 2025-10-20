@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_network_node_overrides",
+  "info": {
+    "displayName": "nodeOverrides",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "customRole": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::custom-role.custom-role"
+    },
+    "questionPrompt": {
+      "type": "string"
+    },
+    "causePrompt": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

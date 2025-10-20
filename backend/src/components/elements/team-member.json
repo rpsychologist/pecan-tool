@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_team_members",
+  "info": {
+    "displayName": "Team member",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.icon-link"
+    }
+  }
+}

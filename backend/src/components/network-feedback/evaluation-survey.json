@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_network_feedback_evaluation_surveys",
+  "info": {
+    "displayName": "Evaluation Survey",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "footer": {
+      "type": "text"
+    }
+  }
+}

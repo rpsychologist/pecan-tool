@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_network_feedback_target_node_outgoings",
+  "info": {
+    "displayName": "Target Node Outgoing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": false
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "zeroLinks": {
+      "type": "richtext"
+    }
+  }
+}

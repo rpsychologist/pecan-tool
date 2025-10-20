@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_custom_nodes",
+  "info": {
+    "displayName": "customNode",
+    "icon": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "questionPrompt": {
+      "type": "string"
+    },
+    "causePrompt": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "inputPlaceholder": {
+      "type": "string"
+    },
+    "inputLabel": {
+      "type": "string"
+    },
+    "submitButtonLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+readme-images
+.vscode
+.DS_Store
+
+TODO.md
+# Local Netlify folder
+.netlify
+
+.env
+.env.*
+!.env.example

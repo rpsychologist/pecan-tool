@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_network_feedback_download_data",
+  "info": {
+    "displayName": "Download Data",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": false
+    },
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "inputLabel": {
+      "type": "string"
+    },
+    "inputDefaultValue": {
+      "type": "string"
+    }
+  }
+}

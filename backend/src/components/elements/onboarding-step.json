@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_onboarding_steps",
+  "info": {
+    "displayName": "onboardingStep",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "offset": {
+      "type": "integer"
+    },
+    "placement": {
+      "type": "enumeration",
+      "enum": [
+        "bottom",
+        "center",
+        "left"
+      ]
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "body",
+        ".nodeSelectStep",
+        ".nodeRankingStep",
+        ".linkRatingStep",
+        "g#nodes"
+      ]
+    }
+  }
+}
