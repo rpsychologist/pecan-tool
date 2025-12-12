@@ -44,3 +44,6 @@ network.json
 
 # demo
 public/uploads
+
+# Yarn
+.yarn/install-state.gz
